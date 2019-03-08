@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>👾 Hafid Feghouli 👾</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> -->
+</head>
+<body>
+    <h1>Hafid Feghouli</h1>
+    <p>Hafid Feghouli</p>
+    
+    <a href="">
+        <section class="card_section">
+            <div class="card">
+                <p>About Me</p>
+            </div>
+        </section> 
+    </a> 
+
+    <a href="">
+        <section class="card_section">
+            <div class="card">
+                <p>Projects</p>
+            </div>
+        </section>
+    </a>
+
+    <a href="https://github.com/roninhaf" target="_blank">
+        <section class="card_section">
+            <div class="card">
+                <p>GitHub</p>
+            </div>
+        </section>
+    </a> 
+
+    <a href="https://www.freecodecamp.org/roninhaf" target="_blank">
+        <section class="card_section">
+            <div class="card">
+                <p>My FreeCodeCamp Profile</p>
+            </div>
+        </section>
+    </a>
+
+    <style>
+    
+        h1 {
+            font-family: 'ka1', cursive;
+            font-size: 5em;
+        }
+
+        p {
+            font-family: 'ka1';
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            cursor: url(hand.cur),auto;
+        }
+        
+
+        /* @font-face {
+            font-family: origa___;
+            src: url(origa___.ttf);
+        } */
+        
+        @font-face {
+            font-family: ka1;
+            src: url(ka1.ttf);
+        }
+
+        body {
+            cursor:url(mario.cur),auto;
+        }
+        
+
+        .card_section { 
+        /* width: 100%;  */
+        float: left; 
+        border-left: 10px solid;
+        border-right: 10px solid;
+        position: relative; 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box;
+        }
+
+        .card_section .card { 
+        /* display: block; */
+        /* color: #FF6600; */
+        padding: 40px; 
+        margin: -10px 0; 
+        border-top: 10px solid; 
+        border-bottom: 10px solid; 
+        }
+        
+        .card_section::before, 
+        .card_section::after,
+        .card_section .card::before, 
+        .card_section .card::after { 
+        content: ''; 
+        width: 10px; 
+        height: 10px; 
+        /* display: block;  */
+        position: absolute;   
+        background: black; 
+        }
+        .card_section::before { top: -5px; left: -5px; }
+        .card_section::after { top: -5px; right: -5px; }
+        .card_section .card::before { bottom: -5px; left: -5px; }
+        .card_section .card::after { bottom: -5px; right: -5px; }
+
+    </style>
+</body>
+</html>
