@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Hafid Feghouli</h1>
-    <p>Hafid Feghouli</p>
+    <p>Web Developer</p>
     
     <a href="">
         <section class="card_section">
@@ -56,6 +56,12 @@
 
         a {
             color: black;
+            position: absolute;
+            box-sizing:  border-box;
+            top: 232px;
+            left: 8px;
+            transition-property: top, left;
+            transition-timing-function: ease;
         }
 
         a:hover {
@@ -73,8 +79,13 @@
             src: url(ka1.ttf);
         }
 
-        body {
+        html {
             cursor:url(mario.cur),auto;
+            /* background-image: url('background.png');
+            background-size: cover; */
+            background: linear-gradient(to left, #33ccff 0%, #9966ff 100%);
+            height: 100%;
+            width: 100%;
         }
         
 
@@ -87,6 +98,7 @@
         -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box; 
         box-sizing: border-box;
+        background-color: white;
         }
 
         .card_section .card { 
@@ -115,5 +127,8 @@
         .card_section .card::after { bottom: -5px; right: -5px; }
 
     </style>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
