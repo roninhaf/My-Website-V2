@@ -24,7 +24,7 @@ p {
     content: url(rightwing.gif); 
 }
 
-a {
+.flying {
     color: black;
     position: absolute;
     box-sizing:  border-box;
@@ -92,7 +92,7 @@ background: black;
 .card_section .card::after { bottom: -5px; right: -5px; }
 
 @media only screen and (max-width: 600px) {
-    a {
+    .flying {
         position: static;
     }
   }
