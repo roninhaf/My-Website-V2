@@ -59,6 +59,7 @@
         .photo {
             background-image: url(moi.jpg);
             background-size: cover;
+            background-position: center; 
         }
 
         html {
@@ -77,14 +78,15 @@
             src: url(ka1.ttf);
         }
 
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (max-width: 600px) {
             .container {
-                grid-template-rows: auto;
+                grid-template-rows: auto 50%;
                 grid-template-columns: auto;
             }
 
             p{
                 font-size: 1.2em;
+                margin-bottom: 10px;
             }
         }
         
